@@ -18,7 +18,7 @@ function BarChart() {
       series: [
         {
           data: WineData.map((item)=>{
-            return item.Malic
+            return item['Malic.acid']
           }),
           type: "bar",
         },

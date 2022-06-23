@@ -1,1 +1,27 @@
-As per recommendation i use yarn ..The wine data is in form of csv file so i covert csv file in json file and then pick some data from the json file . because theri were abudant data whichever i cant adjust in chart that why i just pick some data then shoot the data in barchart and scatterplotchart.i didnt use typescript , i am honest with u that i got some problem in typescript that why use jsx file , but if i select for this i ll learn typescript syntax before interview.
+
+Echart Wine Data
+
+This project is made up of react with the help of wine data api.It contain two different charts ,barchart and scatterplot.
+
+
+## API Reference
+
+#### Get all items
+
+```http
+  file:///C:/Users/admin/Desktop/wine.data
+```
+
+
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `json` | **Required**. Id of item to fetch |
+
+
+
+## Screenshots
+
+![barchart Screenshot](file:///D:/chartcsv/csvproject/src/barchart.img.png)
+![scatterplot Screenshot](file:///D:/chartcsv/csvproject/src/scatterplot.img.png)
